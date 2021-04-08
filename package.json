@@ -1,27 +1,37 @@
 {
-  "name": "bs-date-fns",
-  "version": "1.0.0-alpha.3",
-  "description": "Bucklescript bindings to date-fns",
+  "name": "res-date-fns",
+  "version": "1.1.0",
+  "description": "ReScript bindings to date-fns",
   "scripts": {
-    "bs-build": "bsb -clean-world -make-world",
-    "watch": "bsb -make-world -clean-world -w"
+    "build": "rescript build -with-deps"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SllyQ/bs-date-fns.git"
+    "url": "git@github.com:green-labs/res-date-fns.git"
   },
   "keywords": [
     "reason",
     "reasonml",
     "bucklescript",
+    "rescript",
     "date-fns"
   ],
   "author": "Arnoldas Sidlauskas <arnoldas.sid@gmail.com>",
+  "contributors": [
+    {
+      "name": "Jaeho Lee",
+      "email": "jaeho.lee@greenlabs.co.kr"
+    },
+    {
+      "name": "Jeongsik Yun",
+      "email": "js.yun@greenlabs.co.kr"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
-    "date-fns": "^2.8.1"
+    "date-fns": "^2.20.0"
   },
   "devDependencies": {
-    "bs-platform": "^8.0.3"
+    "rescript": "^9.1.0"
   }
 }

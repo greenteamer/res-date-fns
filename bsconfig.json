@@ -1,15 +1,18 @@
 {
-  "name": "bs-date-fns",
+  "name": "res-date-fns",
   "bsc-flags": ["-bs-super-errors"],
-  "refmt": 3,
+  "suffix": ".bs.js",
+  "bs-dev-dependencies": ["@glennsl/rescript-jest"],
+  "namespace": true,
   "sources": [
     {
       "dir": "src"
-    },
+    }
+  ],
+  "package-specs": [
     {
-      "dir": "examples",
-      "subdirs": true,
-      "type": "dev"
+      "module": "es6",
+      "in-source": true
     }
   ]
 }
