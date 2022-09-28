@@ -1,6 +1,6 @@
 {
   "name": "res-date-fns",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "ReScript bindings to date-fns",
   "scripts": {
     "build": "rescript build -with-deps"
