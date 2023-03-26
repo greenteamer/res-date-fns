@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:green-labs/res-date-fns.git"
+    "url": "git@github.com:greenteamer/res-date-fns.git"
   },
   "keywords": [
     "reason",
